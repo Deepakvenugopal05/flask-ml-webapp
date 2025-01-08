@@ -1,0 +1,26 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore compiled model and scaler files
+*.pkl
+
+# Ignore environment-specific files
+.env
+venv/
+env/
+*.env
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore local notes (if not needed in the repo)
+notes.txt
